@@ -1,0 +1,131 @@
+.container {
+    width: 100%;
+    max-width: 480px;
+    height: 100vh;
+    margin: 0 auto;
+    border-left: 1px rgb(214, 211, 211) solid;
+    border-right: 1px rgb(214, 211, 211) solid;
+    padding: 14px;
+}
+
+/* Top Navbar */
+.navbar {
+    padding: 12px;
+}
+
+.arrowIcon {
+    font-size: 16px;
+    color: #14171A;
+}
+
+.shareIcon {
+    font-size: 16px;
+    color: #14171A;
+    text-align: right;
+}
+
+/* Profile */
+.imgProfile {
+    margin: 12px;
+}
+
+.lightTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 140%;
+    color: #797D7F;
+}
+
+.boldTitle {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 130%;
+    color: #14171A;
+}
+
+.normalDesc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #14171A;
+    padding: 0 16px;
+}
+
+.btnFollow,
+.btnFollow:hover,
+.btnFollow:focus{
+    background: #ED2227;
+    border-radius: 8px;
+    padding: 12px;
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    max-width: 452px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/* Content */
+.contentContainer {
+    margin: 58px 16px;
+}
+
+.widthTab {
+    margin: 18px !important;
+    color:#14171A !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 18px;
+    border-radius: 32px;
+}
+
+.shareIconContent {
+    font-size: 20px;
+    color: #14171A;
+    text-align: right;
+}
+
+.spaceThumbnail {
+    margin-top: 14px;
+}
+
+.lightTitleLivestream {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 140%;
+    color: #FFF;
+    padding: 0 12px;
+    position: absolute;
+    bottom: 8px;
+}
+
+.boldTitleLivestream {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFF;
+    padding: 0 12px;
+    position: relative;
+    margin-top: 96%;
+}
+
+.statusLivestream {
+    background: #FBD2D4;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px 6px 8px;
+    font-size: 11px;
+    color: #ED2227;
+    position: relative;
+    top: 8px;
+    margin-left: 12px;
+}

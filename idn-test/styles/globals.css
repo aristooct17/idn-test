@@ -1,3 +1,5 @@
+@import '../node_modules/antd/dist/antd.css';
+
 html,
 body {
   padding: 0;
@@ -23,4 +25,12 @@ a {
     color: white;
     background: black;
   }
+}
+
+.textLeft {
+  text-align: left ;
+}
+
+.textRight {
+  text-align: right;
 }
